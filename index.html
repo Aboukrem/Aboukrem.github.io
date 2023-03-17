@@ -1,1 +1,224 @@
+<!DOCTYPE html>
+<!-- This is the header of the program -->
+<html lang="en" dir="ltr">
+    <head>
+        <!-- Importing the default for all websites character set -->
+        <meta charset="UTF-8">  
 
+        <!-- Instructions to use this specific font from google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Link to an external style sheet-->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Basically tells the provider up to what version it supports for a browser-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Allowing the browser to look good on all devices (Scaled evenly for all devices)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Creating the title for the header -->
+        <title> Arty-Chan Website </title>
+    </head>
+
+    <!--This is the body of the program -->
+    <body>
+        <!-- Making an ID for the js file -->
+        <div id="particles.js">
+
+            <!-- Identifying the JavaScript.js file to an ID (for CSS) -->
+            <canvas id="myCanvas"></canvas>
+
+            <!-- Importing the js file -->
+            <script type="text/javascript" src="particles.js"></script>
+
+            <!-- Creating a class that is a wrapper that will wrap around a single object to provide more functionality-->
+            <div class="page-wrapper">
+                <!-- Class Side1 will put content on the left side -->
+                <div class="side1">
+                    <!-- Crating a wrapper inside the class since we are going to wrap it at the end (section 1)-->
+                    <div class="wrapper">
+
+                        <!-- Header of the class (Section 1)-->
+                        <h1>YOUR MAJOR</h1>
+                        
+                        <!-- Inserting image -->
+                        <img class="profile-pic" src="PUT YOUR IMAGE HERE">
+
+                        <!-- Header 2 will be our name -->
+                        <h2>YOUR FULL NAME</h2>
+
+                        <!-- Creating a paragraph section to have clickable links -->
+                        <p>Connect:
+                            <a href="#">LinkedIn</a>
+                            <a href="#">Instagram</a>
+                            <a href="#">Canvas</a>
+                            <a href="#">GitHub</a>
+                            <a href="#" download>Resume</a>
+                        </p>
+                    </div>
+                    <!-- Section 2 of side1-->
+                    <div class="wrapper">
+                        <!-- Creating a header for section 2 side1-->
+                        <h1>Work History</h1>
+
+                        <!-- Creating a bullet point for each job-->
+                        <ul class="work-container">
+                            <!-- Creating the bullet point-->
+                            <li class="card4">
+                                <p>job history</p>
+                            </li>
+
+                            <li class="card4">
+                                <p>job history</p>
+                            </li>
+
+                            <li class="card4">
+                                <p>job history</p>
+                            </li>
+
+                            <li class="card4">
+                                <p>job history</p>
+                            </li>
+
+                            <li class="card4">
+                                <p>job history</p>
+                            </li>
+
+                            <li class="card4">
+                                <p>job history</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- Creating the third section of page1 (section 3)-->
+                    <div class="wrapper">
+                        <!-- Creating a header for section 3 side1-->
+                        <h1>Skills</h1>
+
+                        <!-- Creating a list bullet point-->
+                        <ul class="skills-containers">
+                            <!-- Creating the bullet point-->
+                            <li class="card3">
+                                <p>skill</p>
+                            </li>
+
+                            <li class="card3">
+                                <p>skill</p>
+                            </li>
+
+                            <li class="card3">
+                                <p>skill</p>
+                            </li>
+
+                            <li class="card3">
+                                <p>skill</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Crating a new section for all my notes (fourth section) -->
+                    <div class="wrapper">
+                        <!-- Creating the header for the new section -->
+                        <h1>Another sub section you can add or delete</h1>
+
+                        <!-- Creating bullet points  -->
+                        <ul class="notes-containers">
+                            <!-- Creating a bullet point -->
+                            <li class="card5">
+                                <p>
+                                    Type something here
+                                </p>
+                                <a href="more_content/index_more_content.html">View</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Class Side2 will put content on the right side-->
+                <div class="side2">
+                    <!-- Creating section 1 for side2-->
+                    <div class="wrapper">
+                        <!-- Creating a header about me -->
+                        <h1>About Me</h1>
+                        <!-- Creating a paragraph -->
+                        <p class="about_me">
+                            A small explanation about your major and yourself
+                        </p>
+                    </div>
+
+                    <!-- Section 2 for side2-->
+                    <div class="wrapper">
+                        <!-- Creating a header for the blog post -->
+                        <h1>Blog Posts</h1>
+
+                        <!-- Creating a list of bullet points -->
+                        <ul class="blogs-container">
+                            <!-- Creating a cards/boxes that will have a shade with some text in it -->
+                            <li class="card1">
+                                <!-- Creating shaded boxes/cards -->
+                                <h2>Type something here</h2>
+                                <p>
+                                    Type Something 
+                                </p>
+                                <a href="#">Read More</a>
+                            </li>
+                            
+
+                            <li class="card1">
+                                <!-- Creating shaded boxes/cards -->
+                                <h2>Type something here</h2>
+                                <p>
+                                    Type Something 
+                                </p>
+                                <a href="#">Read More</a>
+                            </li>
+                            
+                            <li class="card1">
+                                <!-- Creating shaded boxes/cards -->
+                                <h2>Type something here</h2>
+                                <p>
+                                    Type Something 
+                                </p>
+                                <a href="#">Read More</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Creating the third section of side2-->
+                    <div class="wrapper">
+                        <!-- Creating a header for section 3, need to add images for each project-->
+                        <h1>Projects</h1>
+                            <!-- Creating a container -->
+                            <ul class="projects-container">
+                                <!-- Creating a list -->
+                                <li class="card2">
+                                    <!-- Creating a header 2 with a clickable link underneath it -->
+                                    <h2>Your Project</h2>
+                                    <p> 
+                                        Type something here
+                                    </p>
+                                    <a href="#">View</a>
+                                </li>
+
+                                <li class="card2">
+                                    <!-- Creating a header 2 with a clickable link underneath it -->
+                                    <h2>Your Project</h2>
+                                    <p>
+                                        Type something here
+                                    </p>
+                                    <a href="#">View</a>
+                                </li>
+
+
+
+
+                            </ul>
+                    </div>
+            </div>
+        </div> <!-- The js file thingy -->
+        </div>
+    </body>
+</html>
